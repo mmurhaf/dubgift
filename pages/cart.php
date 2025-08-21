@@ -1,0 +1,3 @@
+<?php
+// Shopping cart page
+?>

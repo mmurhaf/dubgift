@@ -3,27 +3,46 @@
 *.env
 *.env.local
 *.env.production
+*.env.staging
 
 # Configuration files with sensitive data
 dubgift-config/config.php
+config_local.php
+config.local.php
+settings.local.php
 
 # Log files
 logs/
 *.log
 
+# Backups
+backups/
+
 # Vendor directory (Composer dependencies)
 vendor/
+composer.lock
 
-# Uploads directory (user uploaded files)
-public/assets/uploads/
+# Uploaded files
+public/assets/uploads/*
+!public/assets/uploads/.gitkeep
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Secure uploads
+secure_uploads/
 
 # Invoice files (may contain sensitive data)
-public/invoices/
+public/invoices/*
+!public/invoices/.gitkeep
+invoices/*
+!invoices/.gitkeep
 
 # Cache and temporary files
 *.tmp
 *.cache
 cache/
+temp/
+tmp/
 
 # System files
 .DS_Store
@@ -43,5 +62,9 @@ Thumbs.db
 # Node modules (if any)
 node_modules/
 
-# Composer lock file (optional - include if you want reproducible builds)
-# composer.lock
+# Database dumps
+*.sql
+*.sql.gz
+
+# Maintenance flag
+maintenance.flag

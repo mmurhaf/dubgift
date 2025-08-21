@@ -1,0 +1,3 @@
+<?php
+// Brands listing page
+?>

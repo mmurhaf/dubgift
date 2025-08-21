@@ -1,0 +1,3 @@
+<?php
+// Customer logout functionality
+?>
