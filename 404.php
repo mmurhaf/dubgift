@@ -4,8 +4,8 @@
 // Define access constant for security
 define('APP_ACCESS', true);
 
-// Include configuration
-require_once 'config.php';
+// Include configuration (moved outside web root for security)
+require_once '../dubgift-config/config.php';
 require_once 'includes/functions.php';
 
 // Set 404 header

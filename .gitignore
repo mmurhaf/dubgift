@@ -1,22 +1,55 @@
-# Ignore vendor directory
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Logs
+logs/
+*.log
+
+# Backups
+backups/
+
+# Secure uploads
+secure_uploads/
+
+# Vendor dependencies
 vendor/
 composer.lock
 
-# Ignore uploaded files
+# Uploaded files
 assets/uploads/*
 !assets/uploads/.gitkeep
 
-# Ignore invoice files
+# Invoice files
 invoices/*
 !invoices/.gitkeep
 
-# Ignore config with sensitive data
+# Sensitive configuration files
 config_local.php
+config.local.php
+settings.local.php
 
-# Ignore log files
-*.log
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Ignore system files
+# OS files
 .DS_Store
 Thumbs.db
 *.tmp
+
+# Temporary files
+temp/
+tmp/
+cache/
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# Maintenance flag
+maintenance.flag

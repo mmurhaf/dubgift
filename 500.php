@@ -6,7 +6,7 @@ define('APP_ACCESS', true);
 
 // Include configuration (with error handling)
 try {
-    require_once 'config.php';
+    require_once '../dubgift-config/config.php';
 } catch (Exception $e) {
     // Fallback if config fails
     define('SITE_NAME', 'DubGift');
