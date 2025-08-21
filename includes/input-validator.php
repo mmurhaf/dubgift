@@ -48,6 +48,15 @@ class InputValidator {
     }
     
     /**
+     * Sanitize HTML content for email templates
+     */
+    public static function sanitizeHtml($html) {
+        // Allow basic HTML tags for email templates
+        $allowedTags = '<p><br><strong><b><em><i><u><h1><h2><h3><h4><h5><h6><div><span><table><tr><td><th><ul><ol><li><a>';
+        return strip_tags($html, $allowedTags);
+    }
+    
+    /**
      * Validate email
      */
     public static function validateEmail($email) {
