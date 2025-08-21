@@ -1,5 +1,11 @@
 # Apache configuration for DubGift E-commerce
 
+# Custom Error Pages
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 500 /500.php
+ErrorDocument 503 /maintenance.php
+
 # Protect sensitive files
 <Files "config.php">
     Order Allow,Deny
