@@ -72,5 +72,9 @@ class EnvLoader {
     public static function getInt($key, $default = 0) {
         return (int) self::get($key, $default);
     }
+    
+    public static function getFloat($key, $default = 0.0) {
+        return (float) self::get($key, $default);
+    }
 }
 ?>
