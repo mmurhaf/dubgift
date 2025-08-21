@@ -1,0 +1,3 @@
+<?php
+// About us page
+?>

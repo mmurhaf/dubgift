@@ -1,0 +1,3 @@
+<?php
+// Categories listing page
+?>

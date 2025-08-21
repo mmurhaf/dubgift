@@ -1,0 +1,3 @@
+<?php
+// PDF Invoice generation
+?>

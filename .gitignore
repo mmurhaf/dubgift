@@ -1,0 +1,22 @@
+# Ignore vendor directory
+vendor/
+composer.lock
+
+# Ignore uploaded files
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Ignore invoice files
+invoices/*
+!invoices/.gitkeep
+
+# Ignore config with sensitive data
+config_local.php
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.tmp

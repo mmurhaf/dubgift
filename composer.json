@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "tecnickcom/tcpdf": "^6.6",
+        "intervention/image": "^2.7",
+        "twilio/sdk": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DubGift\\": "includes/"
+        }
+    }
+}
