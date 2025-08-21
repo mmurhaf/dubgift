@@ -1,0 +1,3 @@
+<?php
+// Payment success page
+?>

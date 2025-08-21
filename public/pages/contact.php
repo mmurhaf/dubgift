@@ -1,0 +1,3 @@
+<?php
+// Contact us page
+?>

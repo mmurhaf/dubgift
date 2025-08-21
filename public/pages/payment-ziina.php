@@ -1,0 +1,3 @@
+<?php
+// Ziina payment integration
+?>

@@ -1,0 +1,47 @@
+# Environment files
+.env
+*.env
+*.env.local
+*.env.production
+
+# Configuration files with sensitive data
+dubgift-config/config.php
+
+# Log files
+logs/
+*.log
+
+# Vendor directory (Composer dependencies)
+vendor/
+
+# Uploads directory (user uploaded files)
+public/assets/uploads/
+
+# Invoice files (may contain sensitive data)
+public/invoices/
+
+# Cache and temporary files
+*.tmp
+*.cache
+cache/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if any)
+node_modules/
+
+# Composer lock file (optional - include if you want reproducible builds)
+# composer.lock

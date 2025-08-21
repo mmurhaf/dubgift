@@ -1,0 +1,3 @@
+<?php
+// WhatsApp messaging functionality
+?>

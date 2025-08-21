@@ -1,0 +1,55 @@
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Logs
+logs/
+*.log
+
+# Backups
+backups/
+
+# Secure uploads
+secure_uploads/
+
+# Vendor dependencies
+vendor/
+composer.lock
+
+# Uploaded files
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Invoice files
+invoices/*
+!invoices/.gitkeep
+
+# Sensitive configuration files
+config_local.php
+config.local.php
+settings.local.php
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Temporary files
+temp/
+tmp/
+cache/
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# Maintenance flag
+maintenance.flag
